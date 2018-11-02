@@ -54,5 +54,3 @@ b. Airflow Docs are at [link](https://airflow.apache.org/)
 
 c. Another nice medium post [link](https://medium.com/airbnb-engineering/airflow-a-workflow-management-platform-46318b977fd8)
 
-
-# taskhuman_challenge
