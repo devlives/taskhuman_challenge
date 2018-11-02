@@ -19,8 +19,7 @@ d. Run `make run` to bring up the airflow server:
 #### Task
 For this challenge, you would be building the following data pipeline using Apache Airflow.
 
-Step 1: You would create a DAG to fetch the users information from a [fake json site](https://jsonplaceholder.typicode.com/) 
-         The DAG should be scheduled every 45 minutes
+Step 1: You would create a DAG to fetch the users information from a [fake json site](https://jsonplaceholder.typicode.com/). The resource endpoint is `/users` . The DAG should be triggered every 45 minutes
 
 Step 2: The user data is in a nested JSON format. [Here](https://jsonplaceholder.typicode.com/users) is how it looks like.  Convert this data into a table format (for example python list of list object or a pandas dataframe).
 
