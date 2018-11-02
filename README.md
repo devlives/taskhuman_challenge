@@ -1,7 +1,7 @@
 ## TaskHuman Coding Challenge
 
 #### Prerequisites
-Please follow the following steps to set up the environment. This must be run on [*nix like](https://en.wikipedia.org/wiki/Unix-like) systems. If you are using windows please use a virtual box to install an ubuntu server and follow the following steps:
+Please follow the following steps to set up the environment. This must be run on [*nix like](https://en.wikipedia.org/wiki/Unix-like) systems. We have tested this on both Mac and Linux environments. If you are using windows please use a virtual box to install an ubuntu server and follow the steps:
 
 a. Create a fresh virtualenv w/ Python 3.6 and also install docker and docker compose.
 -   Our docker versions are docker 17.12.0 and docker-compose 1.18.0.
