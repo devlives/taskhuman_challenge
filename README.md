@@ -11,10 +11,9 @@ b. Run `make init` to set up the environment and install all the prerequisites.
 c. Run `make test` to make sure all of the smoke tests are passing without any issues
 
 d. Run `make run` to bring up the airflow server
-	
-	i. Once this command is executed, the airflow server should be visible at http://localhost:8080
-	ii. You should be able to see a DAG name example_dag
-	iii. Along with airflow, postgres database would be installed to store the airflow metadata at port 5432. Please use `docker ps` command to see the containers that are up and the ports they bound into. Connection to postgres is essential to accomplish the task below. If you are using SQLAlchemy the connection can be accessed using the following string: `postgresql+psycopg2://airflow:airflow@localhost:5432/airflow`
+i. Once this command is executed, the airflow server should be visible at http://localhost:8080
+ii. You should be able to see a DAG name example_dag
+iii. Along with airflow, postgres database would be installed to store the airflow metadata at port 5432. Please use `docker ps` command to see the containers that are up and the ports they bound into. Connection to postgres is essential to accomplish the task below. If you are using SQLAlchemy the connection can be accessed using the following string: `postgresql+psycopg2://airflow:airflow@localhost:5432/airflow`
 
 
 #### Task
