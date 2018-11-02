@@ -34,10 +34,10 @@ case B - Target Table Exists: If the target table exists, continue to load the d
 **Bonus**
 
  Additional cookie points for:
-	*  Implementing `airflow sensors` to check for http response while fetching the user data in step 1. You can be creative by providing a slackoperator or email operator in case of failed http response.
-	* Not using pandas to convert into dataframe in step 2.
-	* Please make sure to run `make lint` to confirm if the code is pep8 compliant
-	* Use airflow postgres hooks for Step 3 above.
+*  Implementing `airflow sensors` to check for http response while fetching the user data in step 1. You can be creative by providing a slackoperator or email operator in case of failed http response.
+* Not using pandas to convert into dataframe in step 2.
+* Please make sure to run `make lint` to confirm if the code is pep8 compliant
+* Use airflow postgres hooks for Step 3 above.
 
 **What To Submit**
 
