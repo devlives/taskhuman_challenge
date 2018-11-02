@@ -27,7 +27,7 @@ Step 3: Create a branch operator to accomplish the following conditions:
 
 case A - Target Table Missing: Check if the target table to load the above user information exist in postgres destination. If the target table doesn't exist (for example when you load the data for the first time), create a table called `users` in the database `airflow` and load the data. 
 
-case B - Target Table Exists: If the target table exists, continue to load the data.
+case B - Target Table Exists: If the target table exists, continue to load the data. Please remember that this endpoint fetches the same static data containing the information of 10 test users, so its okay to fetch the same data every time the operator is trigerred. 
  
  For this step, you can use the psycopg2 python driver which is already provided to you. The connection string is visible on airflow.cfg file or is also mentioned above.
  
