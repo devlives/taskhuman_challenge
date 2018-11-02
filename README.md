@@ -1,7 +1,7 @@
 ## TaskHuman Coding Challenge
 
 #### Prerequisites
-Please follow the following steps to set up the environment. This must be run on [*nix like](!https://en.wikipedia.org/wiki/Unix-like) systems. If you are using windows please use a virtual box to install an ubuntu server and follow the following steps:
+Please follow the following steps to set up the environment. This must be run on [*nix like](https://en.wikipedia.org/wiki/Unix-like) systems. If you are using windows please use a virtual box to install an ubuntu server and follow the following steps:
 
 a. Create a fresh virtualenv w/ Python 3.6 and also install docker and docker compose.
 -   Our docker versions are docker 17.12.0 and docker-compose 1.18.0.
@@ -19,10 +19,10 @@ d. Run `make run` to bring up the airflow server
 #### Task
 For this challenge, you would be building the following data pipeline using Apache Airflow.
 
-Step 1: You would create a DAG to fetch the users information from a [fake json site](!https://jsonplaceholder.typicode.com/) 
+Step 1: You would create a DAG to fetch the users information from a [fake json site](https://jsonplaceholder.typicode.com/) 
          The DAG should be scheduled every 45 minutes
 
-Step 2: The user data is in a nested JSON format. [Here](!https://jsonplaceholder.typicode.com/users) is how it looks like.  Convert this data into a table format (for example python list of list object or a pandas dataframe).
+Step 2: The user data is in a nested JSON format. [Here](https://jsonplaceholder.typicode.com/users) is how it looks like.  Convert this data into a table format (for example python list of list object or a pandas dataframe).
 
 Step 3: Create a branch operator to accomplish the following conditions:
 
@@ -40,7 +40,7 @@ case B - Target Table Exists: If the target table exists, continue to load the d
 	* Please make sure to run `make lint` to confirm if the code is pep8 compliant
 	* Use airflow postgres hooks for Step 3 above.
 
-** What To Submit**
+**What To Submit**
 
   
 To build a pipeline, you would need to create a DAG. A sample DAG is given in the location dags/example_dag.py it will be necessary to create a DAG. We have provided an example DAG for reference,  `dags/dag_example.py`. 
@@ -48,11 +48,11 @@ When you create a DAG, please place it into this directory and it would automati
 
 #### Some Materials To Read
 
-a. Get started developing workflows with Apache Airflow [link](!http://michal.karzynski.pl/blog/2017/03/19/developing-workflows-with-apache-airflow/)
+a. Get started developing workflows with Apache Airflow [link](http://michal.karzynski.pl/blog/2017/03/19/developing-workflows-with-apache-airflow/)
 
-b. Airflow Docs are at [link](!https://airflow.apache.org/)
+b. Airflow Docs are at [link](https://airflow.apache.org/)
 
-c. Another nice medium post [link](!https://medium.com/airbnb-engineering/airflow-a-workflow-management-platform-46318b977fd8)
+c. Another nice medium post [link](https://medium.com/airbnb-engineering/airflow-a-workflow-management-platform-46318b977fd8)
 
 
 # taskhuman_challenge
