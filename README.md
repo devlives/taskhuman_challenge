@@ -47,6 +47,8 @@ When you create a DAG, please place it into this directory and it would automati
 
 #### Some Materials To Read
 
+For people not familiar with Airflow, here are some good references.
+
 a. Get started developing workflows with Apache Airflow [link](http://michal.karzynski.pl/blog/2017/03/19/developing-workflows-with-apache-airflow/)
 
 b. Airflow Docs are at [link](https://airflow.apache.org/)
